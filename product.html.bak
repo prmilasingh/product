@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product protfilo</title>
+    <link rel="stylesheet" href="Product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--top navbar-->
+    <div class="top-navbar">
+        <p>LoRaWAN</p>
+        <div class="icons">
+            <a href="login.html"><img src="photo/regi.png" alt="" width="18px">Login</a>
+            <a href="register.html"><img src="photo/regi.png"  alt="" width="18px">Register</a>
+        </div>
+    </div>
+    <!--top navbar-->
+<div class="container" id="product-cards">
+        <h1 class="text-center">PRODUCT</h1>
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                  <img src="wa.jfif" alt="">
+                  <div class="card-body">
+                      <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                     <div id="Search">
+		             <button class="btn btn-outline-success" type="submit">Shop Now</button>
+		              </div> 
+                      
+                  </div>
+              </div>
+          </div>
+	    </div>
+	</div>
+	<!--login-->
+    <div class="container"  id="login">
+        <div class="row">
+            <div class="col-md-5 py-3 py-md-0" id="side1">
+                <h3 class="text-center">Welcome Back!!</h3>
+            </div>
+            <div class="col-md-7 py-3 py-md-0" id="side2">
+                <h3 class="text-center">Account Login</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, sequi</p>
+                <div class="input2 text-center">
+                <input type="name" placeholder="User Name">
+                <input type="password" placeholder="Password">
+            </div>
+            <p class="text-center" id="btnlogin"><a href="#">LOG IN</a></p>
+            <p class="text-center">Forget Password <a href="#"> Click</a></p>
+            </div>
+        </div>
+    </div>
+	<!--login-->
+</body>
+</html>
